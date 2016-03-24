@@ -1,0 +1,3 @@
+Numbers are stored as strings of binary numbers. This allows arbitrarily large numbers to be stored, but the advantage to storing the number in binary is that arithmatic operations are easier to calculate, especially using two's complement for negative numbers.
+
+The tests check addition, subtraction, multiplication, division, and modulo for identities and with numbers that the correct result is clear to see. They also test positive and negative numbers, and creating a new VeryLargeInteger from both a long and a String.
